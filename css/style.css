@@ -50,6 +50,10 @@ body {
   margin: 0 auto;
 }
 
+.margin-top-200 {
+  margin-top: 200px;
+}
+
 
 /* Header */
 header{
@@ -91,7 +95,7 @@ header ul li a {
 .jumbotron{
   margin-top: 60px;
   padding-top: 50px;
-  height: 700px;
+  height: 550px;
   background-color: #B4D0E7;
 }
 
@@ -134,3 +138,64 @@ header ul li a {
 }
 
 /* /Jumbotron */
+
+
+/* section prices */
+
+
+.container-prezzi {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ h1{
+  font-size: 40px;
+}
+
+.container-col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-professional {
+  width: calc(95% / 3);
+  height: 1000px;
+  
+  border: 1px solid grey;
+} 
+
+.col-professional div:not(.target-tariffa) {
+  margin: 40px 20px;
+}
+
+
+.button-prova-gratis {
+  
+  padding: 5px 10%;
+  background-color: #0161FF;
+  color: white;
+  
+  
+}
+
+.target-tariffa {
+  height: 30px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 0;
+  border-bottom: 1px solid grey;
+}
+
+.period {
+  display: block;
+  color: gray;
+}
+
+
+.hr-col {
+  margin: 30px 0;
+  width: 20%;
+}
+
+/* /section prices */
+
