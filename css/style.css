@@ -17,6 +17,10 @@ body {
   margin-right: 5px;
 }
 
+.fa-regular {
+  margin: 5px;
+}
+
 /* Utilities */
 .fixed {
   position: fixed;
@@ -29,9 +33,16 @@ body {
   display:flex ;
 }
 
+.border-1-s-g {
+ border: 1px solid rgb(215, 206, 206);
+}
 
 .wrap {
   flex-wrap: wrap ;
+}
+
+.m-b-20 {
+ margin-bottom: 20px;
 }
 
 
@@ -47,6 +58,12 @@ body {
 
 .w-90-auto {
   width: 90%;
+  margin: 0 auto;
+}
+
+
+.w-80-auto {
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -143,13 +160,30 @@ header ul li a {
 /* section prices */
 
 
-.container-prezzi {
-  width: 80%;
-  margin: 0 auto;
-}
+
 
  h1{
   font-size: 40px;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  border: 1px solid grey;
+  border-radius: 10px ;
+  margin-right: 5px;
+  
+}
+.title-price .circle:first-child {
+  border: 5px solid #0161FF;
+}
+
+.title-price span {
+  margin-right: 20px;
+}
+.change-time {
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .container-col {
@@ -159,9 +193,9 @@ header ul li a {
 
 .col-professional {
   width: calc(95% / 3);
-  height: 1000px;
+  height: 1200px;
   
-  border: 1px solid grey;
+  rgb(162, 161, 161);
 } 
 
 .col-professional div:not(.target-tariffa) {
@@ -183,7 +217,7 @@ header ul li a {
   text-align: center;
   margin-top: 10px;
   padding: 0;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(215, 206, 206);
 }
 
 .period {
@@ -197,5 +231,73 @@ header ul li a {
   width: 20%;
 }
 
+.menu-advantages {
+  list-style: none;
+}
+
+.menu-advantages li::before {
+  font-size: 20px;
+  content: "\2713";
+  color: #0161FF;
+}
+
+.menu-advantages li {
+  margin: 20px 0;
+}
+
+.button-contact-sales {
+  background-color: #0161FF;
+  color: white;
+  width: 100%;
+  padding: 10px 20%;
+}
+
+.container-sales {
+  padding: 20px;
+}
+
+.contatta-sales {
+  
+  margin-top: 40px;
+}
+.content-contact {
+  width: 70%;
+}
+
+.button-side {
+  
+  width: 30%;
+}
+
+.title-contact {
+
+  border-bottom: 1px solid rgb(215, 206, 206);
+  height: 40px;
+}
 /* /section prices */
 
+/* Partner Section */
+
+.trova-partner .img-partner img {
+  height: 450px;
+} 
+
+.text-partner {
+  margin-top: 50px;
+  width: 40%;
+}
+
+.text-partner h2 {
+ margin-bottom: 20px;
+}
+.img-partner {
+  width: 60%;
+}
+
+.button-partner {
+  margin-top: 30px;
+  width: fit-content;
+  padding: 5px 20px;
+  border: 1px solid black;
+}
+/* /Partner Section */
