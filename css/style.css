@@ -28,6 +28,10 @@ body {
   left: 0;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 
 .flex {
   display:flex ;
@@ -68,7 +72,7 @@ body {
 }
 
 .margin-top-200 {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 
@@ -128,11 +132,13 @@ header ul li a {
 }
 
 .img-jumbo {
+  height: 100%;
   width: 70%;
 }
 
 .img-jumbo img {
-  height: 460px;
+  
+  max-height: 446px;
 }
 
 
@@ -208,8 +214,10 @@ header ul li a {
   padding: 5px 10%;
   background-color: #0161FF;
   color: white;
-  
-  
+}
+
+.acquista-ora a {
+  color: #0161FF;
 }
 
 .target-tariffa {
@@ -301,3 +309,23 @@ header ul li a {
   border: 1px solid black;
 }
 /* /Partner Section */
+
+
+/*  Card section */
+.row {
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.card {
+  width: calc(100% / 3);
+  margin: 50px 2%;
+  height: 300px;
+  
+}
+
+
+.card img {
+  height: 200px;
+}
+/*  /Card section */
