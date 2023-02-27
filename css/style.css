@@ -3,9 +3,12 @@
  padding: 0;
  box-sizing: border-box;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Hanken Grotesk', sans-serif;
+  
 }
 
 
@@ -16,6 +19,7 @@ body {
   padding: 5px 10px;
   margin-right: 5px;
 }
+
 
 .fa-regular {
   margin: 5px;
@@ -76,6 +80,20 @@ body {
 }
 
 
+.hover-ul:hover {
+
+  text-decoration: underline;
+
+}
+
+
+.blue {
+  background-color:#0161FF;
+}
+
+.button.blue:hover {
+  background-color: #357ef3;
+}
 /* Header */
 header{
   background-color: white;
@@ -102,9 +120,13 @@ header ul li a {
 }
 
 
+.accedi-button:hover {
+  background-color: rgba(240, 242, 245, 0.5);
+}
+
 .inizia-button {
   color: white;
-  background-color: #0161FF;
+  
 }
 
 
@@ -128,11 +150,10 @@ header ul li a {
 
 .text-jumbo{
   width: 30%;
-  margin-right: 10%;
+  margin-right: 3%;
 }
 
 .img-jumbo {
-  height: 100%;
   width: 70%;
 }
 
@@ -150,7 +171,6 @@ header ul li a {
 .free-try-button {
   display: inline-block;
   margin: 10px auto;
-  background-color: #0161FF;
 }
 
 
@@ -159,6 +179,8 @@ header ul li a {
   padding: 10px 5px;
   color: white;
 }
+
+
 
 /* /Jumbotron */
 
@@ -212,7 +234,7 @@ header ul li a {
 .button-prova-gratis {
   
   padding: 5px 10%;
-  background-color: #0161FF;
+ 
   color: white;
 }
 
@@ -229,6 +251,7 @@ header ul li a {
 }
 
 .period {
+  font-size: 13px;
   display: block;
   color: gray;
 }
@@ -270,6 +293,10 @@ header ul li a {
 }
 .content-contact {
   width: 70%;
+}
+
+.content-contact p {
+  font-size: 13px;
 }
 
 .button-side {
