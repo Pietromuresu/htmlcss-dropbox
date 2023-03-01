@@ -552,3 +552,28 @@ header ul li a:first-child {
   width: 30%;
 }
 /* /Aziende section */
+
+
+/* Faq section */
+
+  
+  .faq-section h2{
+    margin-bottom: 20px;
+  }
+
+
+  .faq-list li {
+    
+    line-height: 80px;
+    border-top: 1px solid #D6D6D9;
+    justify-content: space-between;
+  }
+
+  .faq-list li:last-child {
+    border-bottom: 1px solid #D6D6D9;
+
+  }
+
+  
+
+/* /Faq section */
