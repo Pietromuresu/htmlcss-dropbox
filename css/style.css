@@ -179,7 +179,7 @@ header ul li a:first-child {
 .img-jumbo {
   width: fit-content;
   min-width: 500px;
-  max-width: 624px;
+  max-width: 900px;
   width: 70%;
 }
 
