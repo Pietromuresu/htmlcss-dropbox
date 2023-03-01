@@ -103,6 +103,16 @@ body {
   background-color: #357ef3;
 }
 
+.menu-tendina {
+  position: relative;
+  width: 300px ;
+  background-color: white;
+  padding: 20px 0px;
+}
+
+.menu-tendina div {
+  line-height: 40px;
+}
 
 /* Header */
 
@@ -150,6 +160,22 @@ header ul li a:first-child {
   margin-right: 120px;
 }
 
+
+header li  {
+  overflow: hidden;
+
+}
+
+header li:hover {
+  overflow: visible;
+}
+header li div div strong {
+  margin-left: 20px;
+}
+
+header li div div:hover {
+  background-color: rgb(212, 210, 210);
+}
 /* /Header */
 
 
@@ -215,8 +241,6 @@ header ul li a:first-child {
 /* section prices */
 
 
-
-
  h1{
   font-size: 40px;
 }
@@ -257,9 +281,7 @@ header ul li a:first-child {
 
 
 .button-prova-gratis {
-  
-  padding: 5px 10%;
- 
+  padding-left: 15%;
   color: white;
 }
 
@@ -359,9 +381,10 @@ header ul li a:first-child {
 }
 
 .button-partner {
+  align-items: center;
   margin-top: 30px;
   width: fit-content;
-  padding: 5px 20px;
+  padding: 10px 20px;
   border: 1px solid black;
 }
 /* /Partner Section */
@@ -396,17 +419,16 @@ header ul li a:first-child {
 
 
 .section-aziende aside {
- min-height: 400px;
- min-width: 400px;
- width: 20%;
+ min-width: 500px;
+ width: 30%;
 }
 
 .img-aziende {
-  min-width: 200px;
-  min-height: 200px;
-  max-height: 250px;
-  max-width: 250px;
-  
+ width: 250px;
+}
+
+.row-aziende{
+  height: 250px;
 }
 
 
@@ -414,6 +436,7 @@ header ul li a:first-child {
 
 .img-aziende img {
   filter: brightness(0) invert(1);
+  height: 100%;
 }
 
 .designit {
@@ -485,13 +508,17 @@ header ul li a:first-child {
 /* /modifiche immagini */
 
 .section-aziende main { 
-  max-height: 400px;
-  width: 60%;
+  max-height: 500px;
+  min-width: 350px;
+  width: 42.3%;
   background-color: #F5F5F5 ; 
-  overflow: scroll;
+  overflow: hidden ;
 
 }
 
+.section-aziende main:hover{
+  overflow: hidden scroll;
+}
 
 .container-azeinde {
   margin-top: 40px;
@@ -571,6 +598,10 @@ header ul li a:first-child {
 
   li:hover .answer-faq{
     display: block ;
+    color: grey;
+  }
+  li:hover .fa-chevron-down {
+    transform: rotate(180deg);
   }
   
 
