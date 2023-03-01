@@ -107,10 +107,8 @@ body {
 header{
   background-color: white;
   width: 100%;
-  min-width: 60%;
   height: 60px;
- 
-  align-items: center;
+  border-bottom: 1px solid rgb(175, 171, 171);
   justify-content: space-between;
   z-index: 111;
 }
@@ -134,7 +132,6 @@ header ul li a {
 }
 .header-contatta {
   width: 210px;
-  
 }
 header ul li a:first-child {
   margin-left: 20px;
@@ -147,7 +144,8 @@ header ul li a:first-child {
 
 .inizia-button {
   color: white;
-  
+  background-color: #0161FF;
+  margin-right: 120px;
 }
 
 /* /Header */
@@ -275,6 +273,9 @@ header ul li a:first-child {
   border-bottom: 1px solid rgb(215, 206, 206);
 }
 
+.specifiche-tariffa ul li {
+  margin-bottom: 20px;
+}
 .period {
   font-size: 13px;
   display: block;
@@ -291,14 +292,15 @@ header ul li a:first-child {
   list-style: none;
 }
 
-.menu-advantages li::before {
-  font-size: 20px;
-  content: "\2713";
-  color: #0161FF;
-}
+
 
 .menu-advantages li {
   margin: 20px 0;
+}
+
+.fa-check {
+  color: #0161FF;
+  font-size: larger;
 }
 
 .button-contact-sales {
@@ -370,8 +372,8 @@ header ul li a:first-child {
   margin-bottom: 50px;
 }
 .card {
-  width: calc(100% / 3);
-  margin: 50px 2%;
+  width: calc(90% / 3);
+  margin-top : 50px;
   height: 300px;
   
 }
@@ -413,15 +415,14 @@ header ul li a:first-child {
 }
 
 .designit {
-
   background-color: #A2D39B;
+  border: 10px solid #D0E9CD;
 }
+
 .designit img{
   height: 40px;
 }
-.designit:hover {
-  border: 10px solid #D0E9CD;
-}
+
 
 .asu {
   background-color: #60092C;
@@ -429,9 +430,7 @@ header ul li a:first-child {
 .asu img{
   height: 90px;
 }
-.asu:hover {
-  border: 10px solid #850d3d;
-}
+
 
 .uflorida {
   background-color: #1C93CE;
@@ -439,9 +438,7 @@ header ul li a:first-child {
 .uflorida img{
   height: 20px;
 }
-.uflorida:hover {
-  border: 10px solid #70aecd;
-}
+
 
 .topps {
   background-color: #F91B1D;
@@ -449,9 +446,7 @@ header ul li a:first-child {
 .topps img{
   height: 50px;
 }
-.topps:hover {
-  border: 10px solid #f45457;
-}
+
 
 .bicycle {
   background-color: #D50020;
@@ -459,9 +454,7 @@ header ul li a:first-child {
 .bicycle img{
   height: 40px;
 }
-.bicycle:hover {
-  border: 10px solid #f93b54;
-}
+
 
 .hearst {
   background-color: #B4D0E7;
@@ -469,9 +462,7 @@ header ul li a:first-child {
 .hearst img{
   height: 15px;
 }
-.hearst:hover {
-  border: 10px solid #e1eaf1;
-}
+
 
 .lonely {
   background-color: #0D2481;
@@ -479,9 +470,7 @@ header ul li a:first-child {
 .lonely img{
   height: 60px;
 }
-.lonely:hover {
-  border: 10px solid #1635af;
-}
+
 
 .clear-ch {
   background-color: #FED830;
@@ -489,9 +478,7 @@ header ul li a:first-child {
 .clear-ch img{
   height: 70px;
 }
-.clear-ch:hover {
-  border: 10px solid #edc206;
-}
+
 
 /* /modifiche immagini */
 
@@ -577,3 +564,61 @@ header ul li a:first-child {
   
 
 /* /Faq section */
+
+
+/* footer */
+  footer {
+    color: white;
+    background-color: black;
+    margin-top: 100px;
+    
+  }
+
+  .container-footer {
+    
+justify-content: space-between;
+  }
+
+  .list-footer {
+    margin: 100px 0;
+  }
+
+  .list-footer h4 {
+    margin-bottom: 20px;
+  }
+
+  .list-footer ul li {
+    margin-bottom: 10px;
+  }
+
+  .list-footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .bottom-footer hr{
+    display: block;
+    width: 10%;
+    margin-bottom: 40px;
+  }
+
+  .bottom-footer ul li  {
+    color: white;
+    list-style: none;
+    
+  }
+
+  #select-lang {
+    background-color: black;
+    color: grey;
+    border: 0;
+    font-size: 12px;
+    margin-bottom: 40px;
+  }
+
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+
+/* /footer */
+
