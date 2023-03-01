@@ -11,7 +11,9 @@ body {
   
 }
 
-
+.active {
+  border: 10px solid #D0E9CD;
+}
 .button {
   
   align-items: center;
@@ -416,7 +418,7 @@ header ul li a:first-child {
 
 .designit {
   background-color: #A2D39B;
-  border: 10px solid #D0E9CD;
+  
 }
 
 .designit img{
@@ -561,6 +563,9 @@ header ul li a:first-child {
 
   }
 
+  .answer-faq {
+    display: ;
+  }
   
 
 /* /Faq section */
