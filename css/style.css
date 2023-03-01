@@ -13,10 +13,10 @@ body {
 
 
 .button {
-  display: flex;
+  
   align-items: center;
   height: 30px;
-  padding: 5px 10px;
+  padding: 5px 5%;
   margin-right: 5px;
 }
 
@@ -84,7 +84,9 @@ body {
   text-decoration: underline;
 }
 
-
+.hover-bb:hover {
+  border-bottom: black 2px solid;
+}
 
 .hover-b-bright:hover {
   border: 7px solid;
@@ -120,14 +122,23 @@ header{
   align-items: center;
 }
 
+header ul {
+  height: 60px;
+}
 
 header ul li a {
   text-decoration: none;
   color: black;
-  padding: 20px;
+  margin-right: 20px;
   line-height: 60px;
 }
-
+.header-contatta {
+  width: 210px;
+  
+}
+header ul li a:first-child {
+  margin-left: 20px;
+}
 
 .accedi-button:hover {
   background-color: rgba(240, 242, 245, 0.5);
@@ -294,7 +305,7 @@ header ul li a {
   background-color: #0161FF;
   color: white;
   width: 100%;
-  padding: 10px 20%;
+  text-align: center;
 }
 
 .container-sales {
@@ -514,7 +525,7 @@ header ul li a {
 
 .container-cta {
   display: block;
-  height: 200px;
+  height: 300px;
   
   background-color: #B4D0E7
 ;
@@ -522,7 +533,7 @@ header ul li a {
   border: 1px solid #B4D0E7;
 }
 .ora{
-  margin-top: 70px;
+  margin-top: 130px;
   
 }
 .title-cta {
