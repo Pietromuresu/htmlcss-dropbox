@@ -564,7 +564,13 @@ header ul li a:first-child {
   }
 
   .answer-faq {
-    display: ;
+    line-height: 20px;
+    display: none ;
+    margin-bottom: 20px;
+  }
+
+  li:hover .answer-faq{
+    display: block ;
   }
   
 
