@@ -12,7 +12,7 @@ body {
 }
 
 .active {
-  border: 10px solid #D0E9CD;
+  border: 15px solid rgba(255, 255, 255, 0.5);
 }
 .button {
   
@@ -419,8 +419,8 @@ header li div div:hover {
 
 
 .section-aziende aside {
- min-width: 500px;
- width: 30%;
+  min-width: 500px;
+  width: 30%;
 }
 
 .img-aziende {
@@ -435,7 +435,7 @@ header li div div:hover {
 /* modifiche immagini */
 
 .img-aziende img {
-  filter: brightness(0) invert(1);
+  filter:  invert(1);
   height: 100%;
 }
 
